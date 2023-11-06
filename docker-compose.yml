@@ -1,0 +1,23 @@
+version: '3'
+services:
+  invoice_generator:
+    container_name: invoice_generator
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - inv_gen
+    volumes:
+      - data:/app/data
+    ports:
+      - 3000:3000
+networks:
+  inv_gen:
+    external: true
+volumes:
+  data:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: /data
