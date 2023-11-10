@@ -11,6 +11,7 @@ services:
       - data:/app/data
     ports:
       - 3000:3000
+    command: npm run dev
 networks:
   inv_gen:
     external: true
