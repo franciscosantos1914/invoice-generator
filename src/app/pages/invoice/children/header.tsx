@@ -2,11 +2,11 @@ export default function InvoiceHeader() {
   return (
     <div>
       <div className="flex justify-between">
-        <div className="text-2xl font-bold text-green-600">
+        <div className="text-2xl font-bold text-sky-600">
           FATURA SETEMIL SOLUÇÕES
         </div>
         <div className="flex gap-5">
-          <button className="w-8 h-8 flex justify-center items-center rounded-full bg-green-100 hover:bg-green-200">
+          <button className="w-8 h-8 flex justify-center items-center rounded-full bg-sky-100 hover:bg-sky-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -22,7 +22,7 @@ export default function InvoiceHeader() {
               />
             </svg>
           </button>
-          <button className="w-8 h-8 flex justify-center items-center rounded-full bg-green-100 hover:bg-green-200">
+          <button className="w-8 h-8 flex justify-center items-center rounded-full bg-sky-100 hover:bg-sky-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -58,7 +58,7 @@ export default function InvoiceHeader() {
             />
           </div>
         </div>
-        <div className="bg-green-100 w-32 h-32 cursor-pointer flex justify-center items-center hover:bg-green-200">
+        <div className="bg-sky-100 w-32 h-32 cursor-pointer flex justify-center items-center hover:bg-sky-200">
           <div className="bg-white p-2 rounded-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"

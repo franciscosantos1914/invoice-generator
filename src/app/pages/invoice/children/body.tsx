@@ -13,7 +13,7 @@ export default function InvoiceBody() {
             <input
               type="text"
               className="h-8 w-[27rem] border-0 pl-3 ring-1 ring-gray-300 cursor-pointer"
-              placeholder="Localização"
+              placeholder="Endereço da Empresa"
             />
 
             <input
@@ -34,7 +34,7 @@ export default function InvoiceBody() {
             <input
               type="text"
               className="h-8 w-[27rem] border-0 pl-3 ring-1 ring-gray-300 cursor-pointer"
-              placeholder="Localização"
+              placeholder="Endereço da Empresa"
             />
             <input
               type="text"
@@ -47,7 +47,7 @@ export default function InvoiceBody() {
       <div className="pt-12">
         <div className="relative overflow-x-auto ring-1 ring-gray-300">
           <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-            <thead className="text-xs text-gray-700 uppercase bg-green-100 dark:text-gray-400">
+            <thead className="text-xs text-gray-700 uppercase bg-sky-100 dark:text-gray-400">
               <tr>
                 <th scope="col" className="px-6 py-3">
                   Descrição
@@ -103,7 +103,7 @@ export default function InvoiceBody() {
                   />
                 </td>
                 <td className="flex items-center gap-1 px-6 py-4">
-                  <button className="w-7 h-7 flex justify-center items-center rounded-full bg-green-100 hover:bg-green-200">
+                  <button className="w-7 h-7 flex justify-center items-center rounded-full bg-sky-100 hover:bg-sky-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -148,7 +148,7 @@ export default function InvoiceBody() {
                 <td className="px-6 py-4">Laptop PC</td>
                 <td className="px-6 py-4">No</td>
                 <td className="flex items-center gap-1 px-6 py-4">
-                  <button className="w-7 h-7 flex justify-center items-center rounded-full bg-green-100 hover:bg-green-200">
+                  <button className="w-7 h-7 flex justify-center items-center rounded-full bg-sky-100 hover:bg-sky-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

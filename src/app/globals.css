@@ -33,18 +33,18 @@ body {
   height: 8px !important;
 }
 ::-webkit-scrollbar-thumb {
-  background: #4d7c0f !important;
+  background: #0ea5e9 !important;
   border-radius: 1px !important;
 }
 body::-webkit-scrollbar-track {
-  background-color: #4d7c0f !important;
+  background-color: #0ea5e9 !important;
 }
 
 body::-webkit-scrollbar {
   width: 8px !important;
-  background: #4d7c0f !important;
+  background: #0ea5e9 !important;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #4d7c0f !important;
+  background: #0ea5e9 !important;
 }
