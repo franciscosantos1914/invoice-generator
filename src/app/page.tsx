@@ -1,12 +1,13 @@
-import Invoice from "./pages/invoice/invoice";
-import Menu from "./pages/shared/menu";
-import Stock from "./pages/stock/stock";
+'use client'
+import Billing from "./pages/billing/page";
+import AppMenu from "./pages/shared/menu";
+import Stock from "./pages/stock/page";
 
 export default function Home() {
   return (
     <main>
-      <Menu></Menu>
-      <Invoice></Invoice>
+      <AppMenu></AppMenu>
+      <Billing></Billing>
     </main>
   );
 }

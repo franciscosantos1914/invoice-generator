@@ -1,4 +1,21 @@
+"use client";
+
 export default function InvoiceHeader() {
+  function createInputFileElement() {
+    const body = document.body;
+    const input = document.createElement("input");
+    input.type = "file";
+    input.accept = "image/*";
+    input.id = "file";
+    input.addEventListener("change", (evt) => {
+      console.log("evt: ", evt);
+      input.remove();
+    });
+
+    body.appendChild(input);
+    input.click();
+  }
+
   return (
     <div>
       <div className="flex justify-between">
@@ -58,7 +75,10 @@ export default function InvoiceHeader() {
             />
           </div>
         </div>
-        <div className="bg-sky-100 w-32 h-32 cursor-pointer flex justify-center items-center hover:bg-sky-200">
+        <div
+          onClick={createInputFileElement}
+          className="bg-sky-100 w-32 h-32 cursor-pointer flex justify-center items-center hover:bg-sky-200"
+        >
           <div className="bg-white p-2 rounded-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
